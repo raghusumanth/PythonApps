@@ -1,0 +1,62 @@
+
+
+python --version
+pip --version
+django-admin --version
+pip install virtualenvwrapper-win
+mkvirtualenv test
+pip install django
+django-admin --version
+python manage.py runserver
+workon test
+python manage.py startapp calc
+#pip install jinja
+python manage.py collectstatic
+
+ORM - object relational mappers for migrating models into tables
+install postgres and pgAdmin
+Connector for django and postgres is psycopg2
+pip install psycopg2
+django model fields search in google
+
+pip install Pillow
+python manage.py makemigrations
+python manage.py sqlmigrate travello 0001
+python manage.py migrate
+
+Re-Migration: 2:08:15
+if due to some issue tables are not created properly we need to do remigration
+python manage.py makemigrations
+python manage.py migrate
+
+Admin Panel
+localhost:8080/admin
+
+
+python manage.py help
+python manage.py createsuperuser
+
+Adding and fetching data to/from database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
